@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Contact from './contact.js';
 import Faculty from './faculty.js';
@@ -9,6 +9,7 @@ class Navbar extends Component{
     render()
     {
         return(
+            <Router>
             <div >
                 <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
                     <a href="#" class="navbar-brand">
@@ -24,6 +25,7 @@ class Navbar extends Component{
                             <a href="#" class="nav-item nav-link">Admission</a>
                             <a href="./faculty.js" class="nav-item nav-link">Faculty</a>
                             <a href="#" class="nav-item nav-link">Events</a>
+                            <Route path="/facility" component={Facility} />
                             <a href="./facility.js" class="nav-item nav-link">Facilities</a>
                             <a href="./contact.js" class="nav-item nav-link">Contact Us</a>
                             <a href="#" class="nav-item nav-link disabled" tabindex="-1">Results</a>
@@ -38,6 +40,7 @@ class Navbar extends Component{
                     </div>
                 </nav>
             </div>
+            </Router>
         )
     }
 }
