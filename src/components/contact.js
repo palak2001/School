@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import './bgcontact.jpg';
-import './contact.css';
+import './stylesheet.css';
 
 class Contact extends Component
 {
