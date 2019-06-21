@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Contact from './contact.js';
 import Faculty from './faculty.js';
 import Facility from './facility.js';
-import './navstyle.css'
+import './stylesheet.css';
 
 class Navbar extends Component{
     render()
@@ -46,7 +46,7 @@ class Navbar extends Component{
                         <div class="navbar-nav ml-auto">
                             <form class="form-inline my-2 my-lg-0">
                                 <input class="form-control mr-sm-2" type="search" placeholder="Search" />
-                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                <button class="btn-default my-2 my-sm-0" type="submit">Search</button>
                             </form>
                             <a href="#" class="nav-item nav-link">Login</a>
                         </div>

@@ -6,25 +6,27 @@ class Faculty extends Component
     render()
     {
         return(
-            <div class="container">
-                <img src="#" alt="" />
-                <img src="#" alt="" />
-                <img src="#" alt="" />
-                <img src="#" alt="" />
-                <img src="#" alt="" />
-                <img src="#" alt="" />
-                <img src="#" alt="" />
-                <img src="#" alt="" />
-                <img src="#" alt="" />
-                <img src="#" alt="" />
-                <img src="#" alt="" />
-                <img src="#" alt="" />
-                <img src="#" alt="" />
-                <img src="#" alt="" />
-                <img src="#" alt="" />
-                <img src="#" alt="" />
-                <img src="#" alt="" />
-                <img src="#" alt="" />
+            <div>
+                <div className="container">
+                    <img src="#" className="rounded" alt="" />
+                    <div>Info of Teacher</div>
+                </div>
+                <div className="container">
+                    <img src="#" className="rounded" alt="" />
+                    <div>Info of Teacher</div>
+                </div>
+                <div className="container">
+                    <img src="#" className="rounded" alt="" />
+                    <div>Info of Teacher</div>
+                </div>
+                <div className="container">
+                    <img src="#" className="rounded" alt="" />
+                    <div>Info of Teacher</div>
+                </div>
+                <div className="container">
+                    <img src="#" className="rounded" alt="" />
+                    <div>Info of Teacher</div>
+                </div>
             </div>
         )
     }

@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './components/stylesheet.css';
 import Navbar from './components/navbar.js';
 import Main from './components/main.js';
 import Admission from './components/admission.js';
