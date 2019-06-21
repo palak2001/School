@@ -10,7 +10,7 @@ class Facility extends Component
         return(
             <div >
                 <img src="./bgcontact.jpg" className="img-responsive apt" />
-                <div className="contactjumbo">
+                <div className="jumbo">
                     <h1>Facilities</h1>
                     <h4>one</h4>
                     <h4>two</h4>
