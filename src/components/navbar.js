@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Contact from './contact.js';
 import Faculty from './faculty.js';
@@ -21,13 +21,27 @@ class Navbar extends Component{
 
                     <div class="collapse navbar-collapse" id="navcontent">
                         <div class="navbar-nav">
-                            <a href="../..App.js" class="nav-item nav-link active">Home</a>
-                            <a href="#" class="nav-item nav-link">Admission</a>
-                            <a href="./faculty.js" class="nav-item nav-link">Faculty</a>
-                            <a href="#" class="nav-item nav-link">Events</a>
-                            <a href="./facility.js" class="nav-item nav-link">Facility</a>
-                            <a href="./contact.js" class="nav-item nav-link">Contact Us</a>
-                            <a href="#" class="nav-item nav-link disabled" tabindex="-1">Results</a>
+                            <Link to="/">
+                                <span class="nav-item nav-link active ">Home</span>
+                            </Link>
+                            <Link to="/admission">
+                                <span class="nav-item nav-link ">Admission</span>
+                            </Link>
+                            <Link to="/faculty">
+                                <span class="nav-item nav-link ">Faculty</span>
+                            </Link>
+                            <Link to="/events">
+                                <span class="nav-item nav-link ">Events</span>
+                            </Link>
+                            <Link to="/facility">
+                                <span class="nav-item nav-link ">Facility</span>
+                            </Link>
+                            <Link to="/contact">
+                                <span class="nav-item nav-link ">Contact Us</span>
+                            </Link>
+                            <Link to="/results">
+                                <span class="nav-item nav-link " tabindex="-1">Results</span>
+                            </Link>
                         </div>
                         <div class="navbar-nav ml-auto">
                             <form class="form-inline my-2 my-lg-0">

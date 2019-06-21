@@ -29,3 +29,5 @@ class Faculty extends Component
         )
     }
 }
+
+export default Faculty;
