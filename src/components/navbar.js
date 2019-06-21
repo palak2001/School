@@ -4,14 +4,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Contact from './contact.js';
 import Faculty from './faculty.js';
 import Facility from './facility.js';
+import './navstyle.css'
 
 class Navbar extends Component{
     render()
     {
         return(
-            <Router>
             <div >
-                <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+                <nav className="navbar fixed-top navbar-expand-md navbar-dark bg-dark navclass">
                     <a href="#" class="navbar-brand">
                         <img src="images/logo.svg" height="28" alt="Schoolname" />
                     </a>
@@ -25,8 +25,7 @@ class Navbar extends Component{
                             <a href="#" class="nav-item nav-link">Admission</a>
                             <a href="./faculty.js" class="nav-item nav-link">Faculty</a>
                             <a href="#" class="nav-item nav-link">Events</a>
-                            <Route path="/facility" component={Facility} />
-                            <a href="./facility.js" class="nav-item nav-link">Facilities</a>
+                            <a href="./facility.js" class="nav-item nav-link">Facility</a>
                             <a href="./contact.js" class="nav-item nav-link">Contact Us</a>
                             <a href="#" class="nav-item nav-link disabled" tabindex="-1">Results</a>
                         </div>
@@ -40,7 +39,6 @@ class Navbar extends Component{
                     </div>
                 </nav>
             </div>
-            </Router>
         )
     }
 }
