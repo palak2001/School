@@ -10,8 +10,7 @@ class App extends React.Component
   render(){
     return(
       <div>
-        <div><Navbar></Navbar></div>
-        <div class="container" ><Main></Main></div>
+        
       </div>
     )
   }
