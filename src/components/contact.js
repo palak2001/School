@@ -2,13 +2,16 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import './bgcontact.jpg';
 import './stylesheet.css';
+import Navbar from './navbar.js'
 
 class Contact extends Component
 {
     render()
     {
         return(
+
             <div >
+            <Navbar/>
                 <img src="./bgcontact.jpg" className="img-responsive apt" />
                 <div className="contactjumbo">
                     <h1>Facilities</h1>

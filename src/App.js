@@ -7,7 +7,7 @@ import Faculty from './components/faculty.js';
 import Events from './components/events.js';
 import Facility from './components/facility.js';
 import Contact from './components/contact.js';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route, withRouter} from 'react-router-dom';
 
 class App extends React.Component
 {
@@ -16,14 +16,14 @@ class App extends React.Component
       <Router>
       <div>
         <div>
-          <Navbar>
-            <Route path="/" exact component={Navbar} />
+
+            <Route path="/" exact component={withRouter(Navbar)} />
             <Route path="/admission" component={Admission} />
             <Route path="/faculty" component={Faculty} />
             <Route path="/events" component={Events} />
             <Route path="/facility" component={Facility} />
-            <Route path="/contact" component={Contact} />
-          </Navbar>
+            <Route path="/contact" component={withRouter(Contact)} />
+        
         </div>
         <div class="container" ><Main></Main></div>
       </div>
