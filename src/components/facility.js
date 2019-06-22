@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import './bgcontact.jpg';
 import './stylesheet.css';
+import Navbar from './navbar.js'
 
 class Facility extends Component
 {
@@ -9,6 +10,7 @@ class Facility extends Component
     {
         return(
             <div >
+                <Navbar />
                 <img src="./bgcontact.jpg" className="img-responsive apt" />
                 <div className="jumbo">
                     <h1>Facilities</h1>

@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
 import './bgfaculty.jpg';
 import './stylesheet.css';
+import Navbar from './navbar.js'
 class Faculty extends Component
 {
     render()
     {
         return(
             <div className="bgfaculty">
+                <Navbar />
                 <h1 className="text">Faculty</h1>
                 <div className="aln">
                     <div class="card text-white bg-dark mb-3">

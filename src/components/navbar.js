@@ -11,6 +11,7 @@ class Navbar extends Component{
     {
         return(
             <div >
+                <Navbar />
                 <nav className="navbar fixed-top navbar-expand-md navbar-dark bg-dark navclass">
                     <a href="#" className="navbar-brand">
                         <img src="images/logo.svg" height="28" alt="Schoolname" />
