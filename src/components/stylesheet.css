@@ -1,3 +1,4 @@
+/* contact */
 .apt
 {
     height: 110%;
@@ -18,11 +19,13 @@
     left: 25%;
 }
 
+/*navbar*/
 .navclass
 {
     background-color: crimson !important;
 }
 
+/*carousel*/
 .adjust
 {
     position: relative;
@@ -30,4 +33,35 @@
     min-height: 100vh;*/
     height:100%;
     width:100%;
+}
+
+.shape
+{
+    height:100%;
+    width:100%;
+    border-bottom-style: ridge;
+    border-radius: 10% !important ;
+}
+
+.aln
+{
+    display: flex !important;
+    justify-content: center;
+    padding: 5%;
+}
+
+.card
+{
+    width: 18rem;
+}
+
+.text
+{
+    color: crimson;
+    text-align: center;
+}
+
+.bgfaculty
+{
+    background-image: url("bgfaculty.jpg");
 }
