@@ -10,7 +10,7 @@ class Contact extends Component
     {
         return(
             <div >
-            <Navbar/>
+            <Navbar />
                 <img src="./bgcontact.jpg" className="img-responsive apt" />
                 <div className="contactjumbo">
                     <h1>Facilities</h1>
