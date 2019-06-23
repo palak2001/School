@@ -9,7 +9,6 @@ class Contact extends Component
     render()
     {
         return(
-
             <div >
             <Navbar/>
                 <img src="./bgcontact.jpg" className="img-responsive apt" />
