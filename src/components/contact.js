@@ -20,7 +20,7 @@ class Contact extends Component
                 </div>
             </div>
         )
-    };
+    }
 }
 
 export default Contact
