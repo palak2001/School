@@ -65,3 +65,10 @@
 {
     background-image: url("bgfaculty.jpg");
 }
+
+.err
+{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}

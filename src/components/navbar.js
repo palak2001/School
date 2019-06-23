@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Contact from './contact.js';
-import Faculty from './faculty.js';
-import Facility from './facility.js';
 import './stylesheet.css';
 
 class Navbar extends Component{
