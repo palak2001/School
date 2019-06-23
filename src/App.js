@@ -26,7 +26,7 @@ class App extends React.Component
             <Route path="/contact" component={withRouter(Contact)} />
         
         </div>
-        <div class="container" ><Main></Main></div>
+        <div><Main></Main></div>
       </div>
       </Router>
     )
